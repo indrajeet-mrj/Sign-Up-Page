@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            display: grid;
+            place-items: center;
+            padding:0px 20px;
+        }
+        header{
+            height: 100px;
+            width: 100%;
+            margin-top: -35px;
+            display: flex;
+            justify-content: space-between ;
+            align-items: center;
+        }
+        ul{
+            display: flex;
+            width: 50%;
+            justify-content: space-between ;
+            list-style: none;
+        }
+        li a{
+            text-decoration: none;
+            color:#16DA6F;
+        }
+        .container{
+            height: 300px;
+            width: 500px;
+            display:flex;
+            align-items: center;
+            flex-direction: row;
+            padding: 20px;
+            border: 2px solid #16DA6F;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px #95949493;
+        }
+        .home_img{
+            height: 100%;
+            width: 50%;
+            display: grid;
+            place-items: center;
+        }
+        .home_img img{
+            height: 180px;
+        }
+        form{
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        form img{
+            height: 60px;
+        }
+        input{
+            height: 20px;
+            width: 150px;
+            font-size: 12px;
+            padding:0px 10px;
+            font-family: sans-serif;
+            outline: none;
+            border: 1.8px solid #9f9f9f91;
+            border-radius: 5px;
+        }
+        button{
+            height: 20px;
+            width: 60px;
+            background-color: #16DA6F;
+            border: none;
+            color: #646464;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        h1{
+            color: #16DA6F;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="logo"><h1>I<samp>N</samp>D</h1>
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Help</a></li>
+        </ul>
+    </header>
+  <div class="container">
+    <form action="">
+        <img src="undraw_pic_profile_re_7g2h.svg" alt="">
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+        <input type="email" placeholder="Email I'D" required>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Conform Password" required>
+        <button type="submit">Sign Up</button>
+    </form>
+    <div class="home_img">
+        <h1>Sign Up</h1>
+         <img src="undraw_undraw_undraw_undraw_sign_up_ln1s_-1-_s4bc_-1-_ee41_-1-_kf4d.svg" alt=""></div>
+   
+  </div>
+</body>
+</html>
